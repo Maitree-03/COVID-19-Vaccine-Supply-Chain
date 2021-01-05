@@ -1,28 +1,4 @@
 
-
-## Examples
-
-``` html
-<!DOCTYPE html>
-<html>
-  <body>
-    <canvas id="qr"></canvas>
-
-    <script src="/path/to/qrious.js"></script>
-    <script>
-      (function() {
-        var qr = new QRious({
-          element: document.getElementById('qr'),
-          value: 'https://github.com/neocotic/qrious'
-        });
-      })();
-    </script>
-  </body>
-</html>
-```
-
-Open up `demo.html` in your browser to play around a bit.
-
 ## API
 
 Simply create an instance of `QRious` and you've done most of the work. You can control many aspects of the QR code
