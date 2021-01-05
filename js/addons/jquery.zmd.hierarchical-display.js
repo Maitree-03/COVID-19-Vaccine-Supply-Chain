@@ -1,10 +1,3 @@
-/* ========================================================================
- * Zavoloklom Material Design: jquery.zmd.hierarchical-display.js
- * http://zavoloklom.github.io/material-design-hierarchical-display/
- * ========================================================================
- * Copyright 2014 Zavoloklom.
- * Licensed under MIT (https://github.com/zavoloklom/material-design-hierarchical-display/blob/master/LICENSE)
- * ======================================================================== */
 
 (function ($) {
     'use strict';
