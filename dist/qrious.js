@@ -1,48 +1,11 @@
-/*
- * QRious v4.0.2
- * Copyright (C) 2017 Alasdair Mercer
- * Copyright (C) 2010 Tom Zerucha
- *
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- *
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- *
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <http://www.gnu.org/licenses/>.
- */
+
 (function (global, factory) {
   typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
   typeof define === 'function' && define.amd ? define(factory) :
   (global.QRious = factory());
 }(this, (function () { 'use strict';
 
-  /*
-   * Copyright (C) 2017 Alasdair Mercer, !ninja
-   *
-   * Permission is hereby granted, free of charge, to any person obtaining a copy
-   * of this software and associated documentation files (the "Software"), to deal
-   * in the Software without restriction, including without limitation the rights
-   * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-   * copies of the Software, and to permit persons to whom the Software is
-   * furnished to do so, subject to the following conditions:
-   *
-   * The above copyright notice and this permission notice shall be included in all
-   * copies or substantial portions of the Software.
-   *
-   * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-   * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-   * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-   * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-   * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-   * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-   * SOFTWARE.
-   */
+  
 
   /**
    * A bare-bones constructor for surrogate prototype swapping.
@@ -66,16 +29,7 @@
    */
   var slice = Array.prototype.slice;
 
-  /**
-   * Creates an object which inherits the given <code>prototype</code>.
-   *
-   * Optionally, the created object can be extended further with the specified <code>properties</code>.
-   *
-   * @param {Object} prototype - the prototype to be inherited by the created object
-   * @param {Object} [properties] - the optional properties to be extended by the created object
-   * @return {Object} The newly created object.
-   * @private
-   */
+
   function createObject(prototype, properties) {
     var result;
     /* istanbul ignore next */
